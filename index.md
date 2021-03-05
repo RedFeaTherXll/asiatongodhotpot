@@ -1,37 +1,26 @@
-## Welcome to GitHub Pages
+## 恭喜你! 獲得了 "Iphone 12"的抽獎機會! 請詳閱下面資訊:
 
-You can use the [editor on GitHub](https://github.com/RedFeaTherXll/RedFeaTherjoke/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+參加網址(完全免費!) [參加抽獎](https://www.dcjh.tn.edu.tw/)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+參加後要幹嘛: [Minecraft免費下載!可玩Hypixel](https://youtube.com/) 必填! 數學不要丁丁!補考寫不到5分鐘走一堆人??
 
-### Markdown
+### 破幹的補考
+我她媽今天(3/5)去補考，結果他媽的我才剛寫不到一半，前面的老師一說 **好可以交卷了** **一坨**人之街她媽跑出去 wtf 做到最後他媽勝我一個 腳一直抖 我以為我阿扁 笑死
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```1+1 =2 WHY:?
 ```
+### 上英文課:
+_待續_ yea
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 復刻家輩分:
 
-### Jekyll Themes
+可愛溫馨系列:
+- List
+- 第一次騎腳踏車 https://ppt.cc/fc2RBx
+- 生日蛋糕 https://pixeldrain.com/u/GFJu3oWr?fbclid=IwAR0_Vs5Lbs58CaFc7RCsN51lS-pIdvghYigGsiB4LthKBR9WdtC5MH6CIUU
+- 彩繪玻璃杯狗狗—— https://seegore.com/1-man-1-jar/
+- 水餃怎麼煮 https://risu.io/FLEV
+- 蛋捲冰淇五 https://risu.io/WdAU
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RedFeaTherXll/RedFeaTherjoke/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### 瀏覽遇到困難?
+ 關我闢是 你家網路爛怪我?
