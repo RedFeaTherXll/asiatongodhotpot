@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <h1> 最垃圾的網頁</h>
 <h2> class="project-tagline"</h>
 <a href="https://redfeatherxll.github.io/asiatongodhotpot/" class="btn">Reload the page</a>
