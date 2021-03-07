@@ -1,6 +1,6 @@
 # 【八卦】統神不端火鍋? 他這次端這個:
 
-報導:[統神端火鍋? 他沒有!](https://redfeatherxll.github.io/asiatongodhotpot/wtf.html)
+報導:[統神端火鍋? 他沒有!](https://redfeatherxll.github.io/asiatongodhotpot/DE.html)
 
 
 2020/4月 統神端火鍋上傳
