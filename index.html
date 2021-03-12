@@ -2,7 +2,6 @@
 <html lang="en-US">
   <head>
     <meta charset="UTF-8">
-
 <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>TOP 10 精選歌曲每周更新::主頁</title>
 <meta name="generator" content="Jekyll v3.9.0" />
@@ -15,6 +14,12 @@
 <meta property="twitter:title" content="活動進行中! Discord TOP10精選好歌:" />
 <script type="application/ld+json">
 {"url":"https://redfeatherxll.github.io/discordtop10songs/","@type":"WebSite","headline":"Y0 Battle:","name":"discordtop10songs","@context":"https://schema.org"}</script>
+<script>$(function(){
+    $('.scroll').on('click',function(){//繫結點選事件
+        let tops = $(this).attr('href');//獲取物件
+        $('html,body').animate({scrollTop:tops.offset().top},800);//動畫出爐
+    })
+})</script>
 <!-- End Jekyll SEO tag -->
 	<meta name="theme-color" content="#157878">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -91,7 +96,3 @@
     
   </body>
 </html>
- $("index.label").bind("click touch",function(){
-                //根據a標籤的href轉換為id選擇器，獲取id元素所處的位置，並高度減50px（這裡根據需要自由設定）
-                $('html,body').animate({scrollTop: ($($(this).attr('href')).offset().top -50 )},500);
-            });
