@@ -15,12 +15,22 @@
 <script type="application/ld+json">
 {"url":"https://redfeatherxll.github.io/discordtop10songs/","@type":"WebSite","headline":"Y0 Battle:","name":"discordtop10songs","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<script>$(function(){
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+
+<script>
+$(function(){
     $('.scroll').on('click',function(){//繫結點選事件
         let tops = $(this).attr('href');//獲取物件
         $('html,body').animate({scrollTop:tops.offset().top},800);//動畫出爐
     })
-})</script>
+})
+</script>
+$(function(){
+    $('.scroll').on('click',function(){//繫結點選事件
+        let tops = $(this).attr('href');//獲取物件
+        $('html,body').animate({scrollTop:tops.offset().top},800);//動畫出爐
+    })
+})
 	<meta name="theme-color" content="#157878">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/discordtop10songs/assets/css/style.css?v=542d89862df57fb4e77dd9a7d3338cbd73dea213">
@@ -29,7 +39,7 @@
   <body bg-color="#cccccc">
     <section class="page-header">
       <h1 class="project-name">TOP 10 精選歌曲每周更新 </h1>
-      <h2 class="project-tagline"></h2>
+      <h2 class="project-tagline"></h2>	
       
         <a href="https://reurl.cc/nnvG8l" class="btn">在YouTube上觀看</a>
 		<a href="https://discord.gg/2zV2Yrd" class="btn">我們的Discord</a>
