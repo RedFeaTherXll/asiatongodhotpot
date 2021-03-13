@@ -9,12 +9,12 @@
   border-color: brown;
 }
 
-.btn-dc {
-  color: #fff;
-  background-color: brown;
+.btn-outline-primary {
+  color:brown;
+  background-color: #fff;
   border-color: brown;
 }
-.btn-dc:hover, .btn-dc:focus, .btn-dc:active:hover{
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active:hover{
   color: #fff;
   background-color: brown;
   border-color: brown;
