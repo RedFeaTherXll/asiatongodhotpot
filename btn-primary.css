@@ -14,7 +14,7 @@
   background-color: #fff;
   border-color: steelblue;
 }
-.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active:hover{
+.btn-outline-primary:hover, .btn-outline-primary:focus, {
   color: #8B4513;
   background-color: steelblue;
   border-color: steelblue;
