@@ -10,12 +10,12 @@
 }
 
 .btn-dc {
-  color: #fff;
+  color: #5599FF;
   background-color: brown;
   border-color: brown;
 }
 .btn-dc:hover, .btn-dc:focus, .btn-dc:active:hover{
-  color: #fff;
+  color: #5599FF;
   background-color: brown;
   border-color: brown;
 }
