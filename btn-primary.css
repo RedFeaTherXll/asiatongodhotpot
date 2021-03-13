@@ -8,6 +8,16 @@
   background-color: steelblue;
   border-color: steelblue;
 }
+.btn-yt {
+  color: #fff;
+  background-color: firebrick;
+  border-color: firebrick;
+}
+.btn-primary:hover, .btn-primary:focus {
+  color: #fff;
+  background-color: firebrick;
+  border-color: firebrick;
+}
 .btn-outline-primary {
   color:steelblue;
   background-color: #fff;
