@@ -28,3 +28,13 @@
   background-color: #4682B4;
   border-color: steelblue;
 }
+.btn-beta {
+  color:#fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus{
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
