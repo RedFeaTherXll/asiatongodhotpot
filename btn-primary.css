@@ -10,12 +10,12 @@
 }
 
 .btn-outline-primary {
-  color:brown;
+  color:steelblue;
   background-color: #fff;
-  border-color: brown;
+  border-color: steelblue;
 }
 .btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active:hover{
   color: #8B4513;
-  background-color: brown;
-  border-color: brown;
+  background-color: steelblue;
+  border-color: steelblue;
 }
