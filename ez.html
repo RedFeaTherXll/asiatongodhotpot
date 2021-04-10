@@ -13,6 +13,7 @@ function count()
   <head>
     <title>血汗勞工?不你只是免費仔</title>
     <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<style type="text/css">
 	.head{
 		background-color:#003344;color:white;font-weight;bold;font-size:30px;
@@ -21,6 +22,9 @@ function count()
 	.content{
 		width:1000px;margin-left:auto;margin-right:auto;
 		}	
+		@media screen and (max-width:600px) {
+			.content{width:100%;}
+		}
 	.box{
 		width:280px;padding:10px;margin:10px;background-color:gary;
 	}
