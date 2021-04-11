@@ -6,6 +6,16 @@ function count()
 {
    i++;
    document.getElementById("count").innerHTML=i;
+   
+   if(i == 11)
+	alert("成就:採礦初體驗");0
+	if(i == 101)
+		alert("成就:礦工叔叔");
+	if(i == 201)
+		alert("成就:黑手礦工阿杯");
+	if(i == 0)
+		alert("成就:賣掉沒賺喔~");		
+	
    } 
 
 
@@ -24,17 +34,18 @@ function count()
 		function init(){
 	var btn=document.getElementById("btn");
 	btn.onclick=function(){
-		alert("提煉成功!");
-		location=location
-		
-		if("count" < 5){
-		alert("無法提煉");
-							
-		}else if("count" > 5){
-			init();
-		}
-	};
+		if(i < 25){
+		alert("數量過少無法提煉");
+			}
+			else{
+			alert("提煉完畢")
+			location=location
+		};
+	}
 }
+
+	
+
 	</script>
 	<style type="text/css">
 	.head{
@@ -84,6 +95,7 @@ function count()
       <li>取消點數制度
       <li>升級標語，取消魔力芋頭
 	  <li>新增 放鬆音樂撥放器!
+	  <li> 新增成就系統 以及 3個成就
 	  <li> Not Realese
       </ul>
 	  </div>
