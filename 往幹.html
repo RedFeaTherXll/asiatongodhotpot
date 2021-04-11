@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type=text/javascript>
+	var count=0 
+
+document.getElementById("counter").onclick=function(){ 
+    count=count+1; 
+    this.innerHTML=count} 
+
+document.getElementById("reset").onclick=function(){ 
+    count=0 
+    document.getElementById("counter").innerHTML=count; 
+} 
+	
+	</script>
+  </head>
+  <body>
+  
+  <div id="counter">o</div> 
+<button id="reset">reset</button> 
+    <!-- 網頁的內容 -->
+  </body>
+</html>
