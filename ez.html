@@ -7,7 +7,7 @@ function count()
 {
    i++;
    document.getElementById("count").innerHTML=i;
-   
+			
 	if(i == 100)
 		swal("成就","礦工叔叔","info");
 	if(i == 201)
@@ -25,9 +25,24 @@ function count()
 	if(i == 50000)
 		swal("成就:礦神");
 	if(i == 1000000)
-		swal("成就:礦的終點");	
+		swal("成就:礦已經太多了吧");	
+		if(i == 10000000)
+		swal("成就:挖靠");
+if(i == 1000000000)
+		swal("	2uj3h9812hdsohj");			
+			
 	
    } 
+</script>
+<script>
+var k=0;
+function kount()
+{
+	k++
+	document.getElementById("kount").innerHTML=k;
+	i=i-25
+		
+}	
 </script>
   <body style="margin:0px;" bgcolor="#cccccc" onload="init()">
     <!-- 若需相容 IE11，要加載 Promise Polyfill-->
@@ -48,8 +63,8 @@ function count()
 		swal("錯誤","數量過少無法提煉","error");
 			}
 			else{
-			swal("成功!","已提煉完畢!!","success");
-			
+			swal("成功!","已提煉完畢!! 礦物稍後更新 請點一下 挖碎礦","success");
+			kount();
 		};
 	}
 }	
@@ -95,10 +110,13 @@ function count()
 	<div class="content">	
 		<h1><strong>快!挖! 15年內操英趕美!</strong></h1>
      <input onclick="count()" type="button" value="挖碎礦" style="width:220px;height:80px;font-size:20px; background-color:pink;"/>
-      <span style="font-size:55px;" id="count"></span> <span style="font-size:25px;">個碎礦</span>
+      <span style="font-size:55px;" id="count">0</span><span style="font-size:25px;">個碎礦</span>
       <img src="\discordtop10songs\inmage\pickaxe.png">
-	  <h3><strong><br><font size="6" color="blue">挖礦得到的是 碎礦 不是 礦! 要使用提煉方式取得 </font></br></strong></h3>
-		<input id="btn" type="button" class="button" style="width:150px;height:50px;" value="提煉" >
+	  <br>
+	    <span style="font-size:25px;">你擁有</span><span id="kount" style="font-size:30px;">0</span> <span style="font-size:25px;">個原礦</span>
+		<img src="\discordtop10songs\inmage\pic.png">
+		</br>
+		<input onclick="kount()" id="btn" type="button" class="button" style="width:150px;height:50px;" value="提煉" >
 		<button id="noname" type="button" onclick=swal("幹!","就他媽還在測試，文盲退一退了啦","error") style="width:150px;height:50px;">測試版商店</button>
 		<br><a href="https://reurl.cc/ra23r1" style="text-decoration:none;color:green;"><font size="6">重新加載礦場!</font></a>
       </br>
@@ -106,13 +124,14 @@ function count()
 	  <strong>
        <p>Version:2021-05-01-a</p> <span>版本狀況: lastest versi0n</span>
 		</div>
-  <hr></hr>
+  <hr></hr>	
+	<h2>更新日誌</h2>
  <div class="box3">
-    <h2>更新日誌:</h2>
      <br>2021/05/01</br>
      <ul>
       <li>感謝! 力Alex,以及垃圾潘島 提供意見，遊玩! 非常感謝!
       <li>提升了成就的樣子 不用再看到醜醜的垃圾囉~
+	  <li>現在終於可以提煉了! 提煉成果已修復 可以拿到原礦了!
       </ul>
 	  </div> 
  
