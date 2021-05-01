@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <script type="text/javascript">
 var i=0;
 function count()
@@ -7,49 +8,66 @@ function count()
    i++;
    document.getElementById("count").innerHTML=i;
    
-	if(i == 101)
-		alert("成就:礦工叔叔");
+	if(i == 100)
+		swal("成就","礦工叔叔","info");
 	if(i == 201)
-		alert("成就:黑手礦工阿杯");
+		swal("成就:黑手礦工阿杯","","error");
 	if(i == 1000)
-		alert("成就:一車碎礦~");
+		swal("成就:一車碎礦~");
+	if(i == 1987)
+		swal("成就:Enter?不!");	
 	if(i == 2500)
-		alert("成就:碎礦裝滿家~");
+		swal("成就:碎礦裝滿家~");
 	if(i == 3999)
-		alert("成就:兩棟房產?我4000碎礦~");
+		swal("成就:兩棟房產?我4000碎礦~");
 	if(i == 10000)
-		alert("成就:你還不賣嗎?");
+		swal("成就:你還不賣嗎?");
 	if(i == 50000)
-		alert("成就:礦神");
+		swal("成就:礦神");
 	if(i == 1000000)
-		alert("成就:礦的終點");	
+		swal("成就:礦的終點");	
 	
    } 
 </script>
   <body style="margin:0px;" bgcolor="#cccccc" onload="init()">
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <!-- 若需相容 IE11，要加載 Promise Polyfill-->
-	<div class="head">血汗勞工?不!你只是個免費仔</div>
+	<div class="head">血汗勞工?不!大躍進!肥豬塞大象!</div>
   <head>
-    <title>血汗勞工?不!你只是個免費仔</title>
+    <title>血汗勞工?不!肥豬塞大象，大躍進遊戲!!</title>
 	<meta http-equiv="refresh" content="5555">
     <meta charset="UTF-8"></meta>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="Shortcut Icon" type="image/x-icon" href="\discordtop10songs\fuck.ico">
+	<link rel="Shortcut Icon" type="image/x-icon" href="\discordtop10songs\iocn.ico">
+	<link rel="stylesheet" href="/discordtop10songs/btn-primary.css">
+	<link rel="stylesheet" href="/discordtop10songs/btn-set.css">
 	<script type="text/javascript">
 	function init(){
 	var btn=document.getElementById("btn");
 	btn.onclick=function(){
 		if(i < 25){
-		alert("數量過少無法提煉");
+		swal("錯誤","數量過少無法提煉","error");
 			}
 			else{
-			alert("提煉系統尚未修復!");
-			location=location;
+			swal("成功!","已提煉完畢!!","success");
+			
 		};
 	}
 }	
 	</script>
+	<style>
+.button {
+    background-color: #4CAF50;
+    border: 0;
+    color: white;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
 	<style type="text/css">
 	.head{
 		background-color:#003344;color:white;font-weight;bold;font-size:30px;
@@ -76,20 +94,29 @@ function count()
 		</audio>
 	<div class="content">	
 		<h1><strong>快!挖! 15年內操英趕美!</strong></h1>
-     <input onclick="count()" type="button" class="btn btn-yt" value="挖碎礦" style="width:220px;height:80px;font-size:20px;"/>
+     <input onclick="count()" type="button" value="挖碎礦" style="width:220px;height:80px;font-size:20px; background-color:pink;"/>
       <span style="font-size:55px;" id="count"></span> <span style="font-size:25px;">個碎礦</span>
       <img src="\discordtop10songs\inmage\pickaxe.png">
-      <h3><strong><br><font size="6" color="blue">挖礦得到的是 碎礦 不是 礦! 要使用提煉方式取得 </font></br></h3>
-		<button id="btn">提煉</button> 
-		<button id="noname">測試版商店</button>
+	  <h3><strong><br><font size="6" color="blue">挖礦得到的是 碎礦 不是 礦! 要使用提煉方式取得 </font></br></strong></h3>
+		<input id="btn" type="button" class="button" style="width:150px;height:50px;" value="提煉" >
+		<button id="noname" type="button" onclick=swal("幹!","就他媽還在測試，文盲退一退了啦","error") style="width:150px;height:50px;">測試版商店</button>
 		<br><a href="https://reurl.cc/ra23r1" style="text-decoration:none;color:green;"><font size="6">重新加載礦場!</font></a>
       </br>
 	  <hr></hr>
-       <p>Version:2021-04-18a</p> <span>版本狀況: last versi0n</span>
+	  <strong>
+       <p>Version:2021-05-01-a</p> <span>版本狀況: lastest versi0n</span>
 		</div>
   <hr></hr>
-  <div class="box2">
+ <div class="box3">
     <h2>更新日誌:</h2>
+     <br>2021/05/01</br>
+     <ul>
+      <li>感謝! 力Alex,以及垃圾潘島 提供意見，遊玩! 非常感謝!
+      <li>提升了成就的樣子 不用再看到醜醜的垃圾囉~
+      </ul>
+	  </div> 
+ 
+  <div class="box2">
      <br>2021/4/11</br>
      <ul>
       <li>修復一些淺問題
