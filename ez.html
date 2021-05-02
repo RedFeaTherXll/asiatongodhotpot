@@ -101,6 +101,13 @@ function kount()
 	.box2{
 		width:280px;padding:10px;margin:10px;background-color:gary;
 	}
+	.buyer{
+		width:1000px;margin-left:auto;margin-right:auto;
+		}	
+		@media screen and (max-width:600px) {
+			.head{font-size:55px;}
+			.content{width:100%;text-align:center}
+		}
 	
 		</style>
 		<script src="js/jquery-3.6.0.min.js"></script>
@@ -117,16 +124,39 @@ function kount()
 		<img src="\discordtop10songs\inmage\pic.png" width="25%">
 		</br>
 		<input onclick="kount()" id="btn" type="button" class="button" style="width:150px;height:50px;" value="提煉" >
-		<button id="noname" type="button" onclick=swal("幹!","就他媽還在測試，文盲退一退了啦","error") style="width:150px;height:50px;">測試版商店</button>
+		<button id="noname" type="button" onclick=swal("幹!","就他媽還在測試，文盲退一退了啦","error") style="width:150px;height:50px;">隨機購買(not realese)</button>
 		<button onclick="location=location" class="button" type="button"style="font-size:15px;width:150px;height:50px;">刷新網頁換取獎勵(?</button>
      
-	  <hr></hr>
+	  <hr>
 	  <strong>
-       <p>Version:2021-05-01-b</p> <span>版本狀況: lastest versi0n</span>
+       <p>Version:2021-05-02-a</p> <span>版本狀況: lastest versi0n</span>
 		</div>
-  <hr></hr>	
+		</strong>
+		<div class="buyer">
+		<hr>
+		<strong>
+		<h3>商店街</h3>
+			<table>
+				<tr>
+				<th>商品項目</th>
+				<th></th>
+				<th></th>
+				<th>價格</th>
+				<th>購買</th>
+				</tr>
+				<tr>
+				<td>寶礦力火得</td>
+				<td></td>
+				<td></td>
+				<td>15原礦</td>
+				<td><button type="button" class="btn-set buyer" id="buybao" style="width:auto">購買</button></td>
+				</tr>
+			</table>
+		</div>	
+		</strong>
+		<hr>
 	<h2>更新日誌</h2>
-	<div class="box4">
+	<div class="box2">
      <br>2021/05/01-b</br>
      <ul>
       <li>感謝! 力Alex,以及垃圾潘島 提供意見，遊玩! 非常感謝!
@@ -135,7 +165,7 @@ function kount()
 	  <li><strong>測試版商店:Coming sooooooooooooon :P</strong>
       </ul>
 	  </div> 
- <div class="box3">
+ <div class="box2">
      <br>2021/05/01-a</br>
      <ul>
       <li>感謝! 力Alex,以及垃圾潘島 提供意見，遊玩! 非常感謝!

@@ -9,3 +9,16 @@
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+
+.buyer {
+    background-color: #FFFF4D;
+    border: 0;
+    color: green;
+    padding: 15px 45px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
