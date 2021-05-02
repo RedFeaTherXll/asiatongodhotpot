@@ -9,29 +9,82 @@ function count()
    document.getElementById("count").innerHTML=i;
 			
 	if(i == 100)
-		swal("成就","礦工叔叔","info");
+		swal({
+		title:"成就",
+		text:"礦工新秀",
+		timer:1500,
+		buttons: false
+		});
 	if(i == 201)
-		swal("成就:黑手礦工阿杯","","error");
+		swal({
+		title:"成就",
+		text:"黑手礦工阿伯",
+		timer:1500,
+		buttons: false
+		});
 	if(i == 1000)
-		swal("成就:一車碎礦~",);
+		swal({
+		title:"成就",
+		text:"挖了1/3的碎礦",
+		timer:1500,
+		buttons: false
+		});
 	if(i == 1987)
-		swal("成就:Enter?不!");	
+		swal({
+		title:"成就",
+		text:"礦物嘲笑你了",
+		timer:1500,
+		buttons: false
+		});
 	if(i == 2500)
-		swal("成就:碎礦裝滿家~");
+		swal({
+		title:"成就",
+		text:"礦'且'",
+		timer:1500,
+		buttons: false
+		});
 	if(i == 3999)
-		swal("成就:兩棟房產?我4000碎礦~");
+		swal({
+		title:"成就",
+		text:"礦物鑑別達人",
+		timer:2500,
+		buttons: false
+		});
 	if(i == 10000)
-		swal("成就:你還不賣嗎?");
+		swal({
+		title:"成就",
+		text:"萬人矚目，曠世奇派",
+		timer:3500,
+		buttons: false
+		});
 	if(i == 50000)
-		swal("成就:礦神");
+		swal({
+		title:"成就",
+		text:"出來比現金? 身上也就這50000碎礦",
+		timer:5000,
+		buttons: false
+		});
 	if(i == 1000000)
-		swal("成就:礦已經太多了吧");	
+		swal({
+		title:"成就",
+		text:"曠世神",
+		timer:5500,
+		buttons: false
+		});
 		if(i == 10000000)
-		swal("成就:挖靠");
+		swal({
+		title:"成就",
+		text:"挖到靠杯",
+		timer:2000,
+		buttons: false
+		});
 if(i == 1000000000)
-		swal("	2uj3h9812hdsohj");			
-			
-	
+		swal({
+		title:"成就",
+		text:"123h1ueh18792egh897wqgher891724",
+		timer:10000,
+		buttons: false
+		});
    } 
 </script>
 <script>
@@ -82,6 +135,26 @@ function kount()
     margin: 4px 2px;
     cursor: pointer;
 }
+.btn-yt {
+  color: #fff;
+  background-color: firebrick;
+  border-color: firebrick;
+}
+.btn-yt:hover, .btn-yt:focus {
+  color: #fff;
+  background-color: firebrick;
+  border-color: firebrick;
+}
+.btn-6 {
+  color: #fff;
+  background-color: steelblue;
+  border-color: steelblue;
+}
+.btn-6:hover, .btn-6:focus {
+  color: #fff;
+  background-color: steelblue;
+  border-color: steelblue;
+}
 </style>
 	<style type="text/css">
 	.head{
@@ -129,7 +202,7 @@ function kount()
      
 	  <hr>
 	  <strong>
-       <p>Version:2021-05-02-a</p> <span>版本狀況: lastest versi0n</span>
+       <p>Version:2021-05-02-b</p> <span>版本狀況: 最新的版本!</span>
 		</div>
 		</strong>
 		<div class="buyer">
@@ -138,24 +211,51 @@ function kount()
 		<h3>商店街</h3>
 			<table>
 				<tr>
-				<th>商品項目</th>
-				<th></th>
-				<th></th>
+				<strong>
+				<td>商品</td>
+				</strong>
 				<th>價格</th>
 				<th>購買</th>
+				<th></th>
 				</tr>
 				<tr>
-				<td>寶礦力火得</td>
-				<td></td>
-				<td></td>
+				<td>
+				<strong>寶礦力火得</strong>
+				<br>
+				<small>增加體力補火好幫手 夏天上火的好'火'伴!</small>
 				<td>15原礦</td>
-				<td><button type="button" class="btn-set buyer" id="buybao" style="width:auto">購買</button></td>
+				<td><button type="button" class="btn-6" style="width:80px;height:40px" onclick=swal("怪了?!!","商店裡面好像沒人的樣子...","wtg.png")>下單</button></td>
+				</tr>
+				<tr>
+				<td>
+				<strong>超會挖的雞</strong>
+				<br>
+				<small>可以自動挖礦! 有可能挖到屎或者吃到::那我就不知道了</small></td>
+				<td>35原礦</td>
+				<td><button type="button" class="btn-6" style="width:80px;height:40px" onclick=swal("怪了?!!","養雞場沒人喔?...","wtg.png")>下單</button></td>
 				</tr>
 			</table>
 		</div>	
 		</strong>
 		<hr>
+		<strong>
 	<h2>更新日誌</h2>
+	<div class="box2">
+     <br>2021/05/02-b</br>
+     <ul>
+      <li>快!已經要準備就緒了! 商家備貨尚未完成!
+      <li>彩蛋addeddd
+      </ul>
+	  </div> 
+	<div class="box2">
+     <br>2021/05/02-a</br>
+     <ul>
+      <li>更新了音樂包!
+      <li>商店街已經有商家入住... 準備迎來最盛大的商業繁榮!
+	  <li>更換了按鈕顏色
+	  <li>Enter按鍵的技巧決議不取消~:PPPP
+      </ul>
+	  </div> 
 	<div class="box2">
      <br>2021/05/01-b</br>
      <ul>
@@ -194,5 +294,14 @@ function kount()
       <li>取消換取VIP的制度(之後會再更新)
       </ul>
 	  </div>
+	  <div class="content">
+	  <hr>
+	  <span>該遊戲、架構、網站等技術由RedFeaTherXll 21303製作:P</span>
+	  <br><span>歡迎各位在電腦課上玩，只要你螢幕沒有被鎖:)</span></br>
+	  </div>
+	  <footer>
+	  <table width="1500" height="100">
+　<tr><td align="center">Hi ;P From the miner's 問候</td></tr>
+</table>
   </body>
 </html>
