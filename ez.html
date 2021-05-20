@@ -98,6 +98,16 @@ function kount()
 		
 }	
 </script>
+<script>
+var k=k;
+function buy()
+	if(k>15){
+		k=k-15
+	swal("購買成功!","商品將在14天內到貨","success")	
+}else 
+	return false;
+	{	
+</script>
   <body style="margin:0px;" bgcolor="#cccccc" onload="init()">
     <!-- 若需相容 IE11，要加載 Promise Polyfill-->
 	<div class="head">血汗勞工?不!大躍進!肥豬塞大象!</div>
@@ -217,7 +227,7 @@ function kount()
 				<br>
 				<small>增加體力補火好幫手 夏天上火的好'火'伴!</small>
 				<td>15原礦</td>
-				<td><button type="button" class="btn-6" style="width:80px;height:40px" onclick=swal("怪了?!!","商店裡面好像沒人的樣子...","wtg.jpg")>下單</button></td>
+				<td><button type="button" class="btn-6" style="width:80px;height:40px" onclick=buy>下單</button></td>
 				</tr>
 				<tr>
 				<td>
