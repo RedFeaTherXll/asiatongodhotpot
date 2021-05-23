@@ -2,6 +2,8 @@
 <html lang="en-US">
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <link rel="Shortcut Icon" type="image/x-icon" href="/discordtop10songs/iocn.ico"/>
+<!--下面是彈跳出來的問畫框 問:是否教學-->
+
   <script type="text/javascript">
 var i=0;
 function count()
@@ -11,6 +13,7 @@ function count()
 			
 	if(i == 100)
 		swal({
+		position: 'top-end',
 		title:"成就",
 		text:"礦工新秀",
 		timer:1500,
@@ -19,6 +22,7 @@ function count()
 	if(i == 201)
 		swal({
 		title:"成就",
+		position: 'top-end',
 		text:"黑手礦工阿伯",
 		timer:1500,
 		buttons: false
@@ -26,12 +30,14 @@ function count()
 	if(i == 1000)
 		swal({
 		title:"成就",
+		position: 'top-end',
 		text:"挖了1/3的碎礦",
 		timer:1500,
 		buttons: false
 		});
 	if(i == 1987)
 		swal({
+		position: 'top-end',
 		title:"成就",
 		text:"礦物嘲笑你了",
 		timer:1500,
@@ -39,6 +45,7 @@ function count()
 		});
 	if(i == 2500)
 		swal({
+		position: 'top-end',
 		title:"成就",
 		text:"礦'且'",
 		timer:1500,
@@ -46,6 +53,7 @@ function count()
 		});
 	if(i == 3999)
 		swal({
+		position: 'top-end',
 		title:"成就",
 		text:"礦物鑑別達人",
 		timer:2500,
@@ -53,6 +61,7 @@ function count()
 		});
 	if(i == 10000)
 		swal({
+		position: 'top-end',
 		title:"成就",
 		text:"萬人矚目，曠世奇派",
 		timer:3500,
@@ -60,6 +69,7 @@ function count()
 		});
 	if(i == 50000)
 		swal({
+		position: 'top-end',
 		title:"成就",
 		text:"出來比現金? 身上也就這50000碎礦",
 		timer:5000,
@@ -67,6 +77,7 @@ function count()
 		});
 	if(i == 1000000)
 		swal({
+		position: 'top-end',
 		title:"成就",
 		text:"曠世神",
 		timer:5500,
@@ -74,6 +85,7 @@ function count()
 		});
 		if(i == 10000000)
 		swal({
+		position: 'top-end',
 		title:"成就",
 		text:"挖到靠杯",
 		timer:2000,
@@ -81,6 +93,7 @@ function count()
 		});
 if(i == 1000000000)
 		swal({
+		position: 'top-end',
 		title:"成就",
 		text:"123h1ueh18792egh897wqgher891724",
 		timer:10000,
@@ -96,20 +109,30 @@ function kount()
 	document.getElementById("kount").innerHTML=k;
 	i=i-25
 		
-}	
+}
 </script>
 <script>
+function buy(){
+		if(k < 15){
+		swal("錯誤","餘額不足","error");
+			}
+			else{
+			swal("成功!","已購買!","success");
+			item1();
+		};
+	}	
+</script>
+<!--上面是偵測購買物品的東西-->
+<script>
 var k=k;
-function buy()
-	if(k>15){
-		k=k-15
-	swal("購買成功!","商品將在14天內到貨","success")	
-}else 
-	return false;
-	{	
+function item1()
+	{
+	k=k-15
+	}
 </script>
   <body style="margin:0px;" bgcolor="#cccccc" onload="init()">
-    <!-- 若需相容 IE11，要加載 Promise Polyfill-->
+  swal("是否進行教學模式?","Do you want to play with tutorial mode?","info");
+    <!-- 要不要進行教學?-->
 	<div class="head">血汗勞工?不!大躍進!肥豬塞大象!</div>
   <head>
     <title>血汗勞工?不!肥豬塞大象，大躍進遊戲!!</title>
@@ -201,7 +224,7 @@ function buy()
 		<img src="\discordtop10songs\inmage\pic.png" width="25%">
 		</br>
 		<input onclick="kount()" id="btn" type="button" class="button" style="width:150px;height:50px;" value="提煉" >
-		<button id="noname" type="button" onclick=swal("幹!","就他媽還在測試，文盲退一退了啦","error") style="width:150px;height:50px;">隨機購買(not realese)</button>
+		<button id="noname" type="button" style="width:150px;height:50px;">隨機購買(not realese)</button>
 		<button onclick="location=location" class="button" type="button"style="font-size:15px;width:150px;height:50px;">刷新網頁換取獎勵(?</button>
      
 	  <hr>
@@ -228,7 +251,7 @@ function buy()
 				<br>
 				<small>增加體力補火好幫手 夏天上火的好'火'伴!</small>
 				<td>15原礦</td>
-				<td><button type="button" class="btn-6" style="width:80px;height:40px" onclick="buy()">下單</button></td>
+				<td><button id="wtf" type="button" class="btn-6" style="width:80px;height:40px" onclick="buy()">下單</button></td>
 				</tr>
 				<tr>
 				<td>
@@ -244,6 +267,16 @@ function buy()
 		<hr>
 		<strong>
 	<h2>更新日誌</h2>
+	<div class="box2">
+     <br>2021/05/23-ab-senternet</br>
+     <ul>
+      <li><strong>養雞場負責人因感染COVID-19 所以養雞場被迫關閉</strong>
+      <li>更新了音樂包
+	  <li>現已推出:
+	  <li>購買寶礦力
+	  <li>防疫期間，不要出門，口罩戴好 謝謝!
+      </ul>
+	  </div> 
 	<div class="box2">
      <br>2021/05/02-b</br>
      <ul>
